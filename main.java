@@ -25,7 +25,7 @@ public class Lab4 {
         populations = new ArrayList<String>( );
         
         try{
-            File statePops = new File("C:\\Users\\Yisacor\\OneDrive\\Desktop\\Files\\cecs 277\\lab-4\\src\\lab\\pkg4\\StatePops.txt");
+            File statePops = new File("StatePops.txt");
             ArrayList<String> fileData = new ArrayList<>();
             Scanner in = new Scanner(statePops);
              while(in.hasNext()){
